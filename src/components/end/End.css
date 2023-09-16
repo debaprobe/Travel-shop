@@ -1,0 +1,21 @@
+.end-container{
+    background-color: #222;
+    width: 100%;
+    height: 12rem;
+    color: white;
+}
+.end-container h5{
+    text-align: center;
+}
+.refer{
+    display: flex;
+    padding: 3rem 2rem;
+    justify-content: space-around;
+}
+.social-media{
+    display: flex;
+    
+}
+.social-media h2{
+    padding: 0 3rem;
+}

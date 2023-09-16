@@ -1,0 +1,57 @@
+.head{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 15rem;
+    z-index: 1;
+}
+.head h1{
+    color:white;
+    position: absolute;
+    top: 11rem;
+    margin: 0px 0px 0px 15px;
+}
+.shop-container{
+    position: absolute;
+    margin: 16em;
+}
+.shop-container img{
+    width: 54rem;
+    height: 27rem;
+}
+.shop-container h3{
+    position: absolute;
+    top: 14rem;
+    left: 2%;
+    color: white;
+    padding: 11px;
+}
+.shop-container button{
+    position: absolute;
+    left: 87%;
+    top: 8px;
+    border: 0px;
+    padding: 7px
+}
+.products{
+    position: absolute;
+    top:45rem;
+    left:2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.products h3{
+    margin: 5px 0px;
+    padding: 0;
+}
+.products button{
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.shop-container-end{
+    position: absolute;
+    top:60rem
+}

@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+}
+
+.first-box{
+        position: relative;
+        background-color: black;
+        color: wheat;
+        z-index: -1;
+        left: 40rem;
+        height: 37rem;
+        border-radius: 24px;
+}
+.headings{
+    /* position: absolute;
+    left: 2px; */
+    margin: 0px 0rem 0 3rem;
+    line-height: 2em;
+}
+
+.ceo-image img{
+        position: relative;
+        right: 32em;
+        height: 32em;
+        top: 2rem;
+        width: 43em;
+        border-radius: 42px;
+        
+}

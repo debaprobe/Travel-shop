@@ -1,0 +1,62 @@
+
+  .nav{
+    height: 10rem;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  
+  }
+  .nav-top{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 16, 16);
+    color: beige;
+  }
+  .nav-top button{
+    background-color: rgb(199, 66, 66);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 13px 7px;
+    color: beige;
+  }
+  
+  .nav-bottom{
+    background-color: rgb(199, 66, 66); 
+    color: beige;
+    display: flex;
+    position: relative;
+  }
+  .nav-bottom img{
+    height: 4em;
+    margin: 5px 10px;
+    border-radius: 50px;  
+      
+  }
+  .nav-bottom ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10%;
+    bottom:-6%
+  }
+  .nav-bottom ul li{
+    /* text-align: right; */
+    padding: 0px 10px;
+  }
+  .nav-bottom ul li a{
+    text-decoration: none;
+    padding: 3px 13px;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-bottom ul li a:hover{
+    border: 2px solid black;
+    border-radius: 24px;
+    background-color: black;
+  }
+  .nav-bottom button{
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    border-radius: 16px;
+  }

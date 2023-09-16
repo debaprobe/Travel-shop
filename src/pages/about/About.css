@@ -1,0 +1,30 @@
+.reason{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.properties{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2em;
+    margin: 5rem 7rem;
+    text-align: center;
+}
+
+.properties h3{
+    font-size: 24px;
+    padding: 2em 12px;
+    font-weight: lighter;
+}
+
+.review{
+    display: flex;
+    text-align: center;
+    margin: 2rem 7rem;
+    line-height: 34px;
+}
+
+.review img{
+    border-radius: 97px;
+    height: 11rem;
+}

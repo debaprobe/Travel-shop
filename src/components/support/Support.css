@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin: 2rem 5rem;
+}
+.left-container{
+    width: 80%;
+}
+
+.left-container h3{
+    font-size: 21px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+.left-container h1{
+    font-size: 49px;
+    margin: 0px;
+}
+
+.right-container{
+    padding: 30px 16px;
+    margin: 18px;
+}
